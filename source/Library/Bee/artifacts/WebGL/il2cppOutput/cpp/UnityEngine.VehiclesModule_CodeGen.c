@@ -1,0 +1,65 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+// 0x00000001 System.Void UnityEngine.WheelCollider::set_motorTorque(System.Single)
+extern void WheelCollider_set_motorTorque_m4958AAF7D867CF7570420F9BAFAF04DC904F02A8 (void);
+// 0x00000002 System.Void UnityEngine.WheelCollider::set_brakeTorque(System.Single)
+extern void WheelCollider_set_brakeTorque_mB9B216C57C275470907C7DB35185E2F192DC8DAB (void);
+// 0x00000003 System.Single UnityEngine.WheelCollider::get_steerAngle()
+extern void WheelCollider_get_steerAngle_mF0A004554F1509F1DA233AC71A7A2C9C36CC9EE5 (void);
+// 0x00000004 System.Void UnityEngine.WheelCollider::set_steerAngle(System.Single)
+extern void WheelCollider_set_steerAngle_m7BF83B27D8956355F873537939BE9F35CF3113C3 (void);
+// 0x00000005 System.Boolean UnityEngine.WheelCollider::get_isGrounded()
+extern void WheelCollider_get_isGrounded_mA24C86DA670A02E01ACE176B4AF30F801244F327 (void);
+// 0x00000006 System.Void UnityEngine.WheelCollider::GetWorldPose(UnityEngine.Vector3&,UnityEngine.Quaternion&)
+extern void WheelCollider_GetWorldPose_m8C41FA2AE9ED543AB94A6E3226523A2FE83FA890 (void);
+static Il2CppMethodPointer s_methodPointers[6] = 
+{
+	WheelCollider_set_motorTorque_m4958AAF7D867CF7570420F9BAFAF04DC904F02A8,
+	WheelCollider_set_brakeTorque_mB9B216C57C275470907C7DB35185E2F192DC8DAB,
+	WheelCollider_get_steerAngle_mF0A004554F1509F1DA233AC71A7A2C9C36CC9EE5,
+	WheelCollider_set_steerAngle_m7BF83B27D8956355F873537939BE9F35CF3113C3,
+	WheelCollider_get_isGrounded_mA24C86DA670A02E01ACE176B4AF30F801244F327,
+	WheelCollider_GetWorldPose_m8C41FA2AE9ED543AB94A6E3226523A2FE83FA890,
+};
+static const int32_t s_InvokerIndices[6] = 
+{
+	2863,
+	2863,
+	3424,
+	2863,
+	3327,
+	1269,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_VehiclesModule_CodeGenModule;
+const Il2CppCodeGenModule g_UnityEngine_VehiclesModule_CodeGenModule = 
+{
+	"UnityEngine.VehiclesModule.dll",
+	6,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL, // module initializer,
+	NULL,
+	NULL,
+	NULL,
+};
